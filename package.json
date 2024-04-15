@@ -1,0 +1,25 @@
+{
+  "name": "lgq-setup",
+  "version": "1.0.0",
+  "description": "Prompt to setup project locally with extension",
+  "main": "index.js",
+  "repository": "https://github.com/ariarachmanu/lgq-setup",
+  "author": "dheariarachman@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "gts": "^5.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "bin": {
+    "lgq-setup": "dist/index.js"
+  }
+}
