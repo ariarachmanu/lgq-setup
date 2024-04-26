@@ -1,6 +1,6 @@
 {
   "name": "lgq-setup",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Prompt to setup project locally with extension",
   "main": "index.js",
   "repository": "https://github.com/ariarachmanu/lgq-setup",
